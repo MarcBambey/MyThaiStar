@@ -23,6 +23,8 @@ import io.oasp.module.jpa.common.api.to.PaginatedListTo;
 /**
  * The service interface for REST calls in order to execute the logic of component {@link Dishmanagement}.
  */
+//https://github.com/oasp/oasp4j/wiki/guide-dataaccess-layer#pagination
+//https://github.com/oasp/oasp4j/wiki/guide-rest#jax-rs
 @Path("/dishmanagement/v1")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)

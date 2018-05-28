@@ -5,7 +5,7 @@ import javax.inject.Named;
 import net.sf.mmm.util.nls.api.NlsBundle;
 import net.sf.mmm.util.nls.api.NlsBundleMessage;
 import net.sf.mmm.util.nls.api.NlsMessage;
-
+//https://github.com/oasp/oasp4j/wiki/guide-exceptions#exception-example
 /**
  * This is the {@link NlsBundle} for this application.
  *

@@ -1,7 +1,7 @@
 package io.oasp.application.mtsj.general.common.api.exception;
 
 import io.oasp.application.mtsj.general.common.api.NlsBundleApplicationRoot;
-
+//https://github.com/oasp/oasp4j/wiki/guide-exceptions#exception-example
 /**
  * This exception is thrown if an {@link io.oasp.application.mtsj.general.common.api.ApplicationEntity entity} has
  * a specific state that is illegal for the current operation and caused it to fail.

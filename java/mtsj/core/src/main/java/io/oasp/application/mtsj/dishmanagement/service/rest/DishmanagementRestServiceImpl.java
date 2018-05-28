@@ -16,6 +16,7 @@ import io.oasp.module.jpa.common.api.to.PaginatedListTo;
 /**
  * The service implementation for REST calls in order to execute the logic of component {@link Dishmanagement}.
  */
+//https://github.com/oasp/oasp4j/wiki/guide-rest#jax-rs
 @Named("DishmanagementRestService")
 public class DishmanagementRestServiceImpl implements DishmanagementRestService {
 
@@ -39,7 +40,7 @@ public class DishmanagementRestServiceImpl implements DishmanagementRestService 
 
     this.dishmanagement.deleteCategory(id);
   }
-
+//https://github.com/oasp/oasp4j/wiki/guide-rest#parameterized-loading-of-a-resource
   @Override
   public PaginatedListTo<CategoryEto> findCategorysByPost(CategorySearchCriteriaTo searchCriteriaTo) {
 

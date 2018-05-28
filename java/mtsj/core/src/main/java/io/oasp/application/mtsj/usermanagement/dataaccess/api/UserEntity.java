@@ -17,6 +17,7 @@ import io.oasp.application.mtsj.dishmanagement.dataaccess.api.DishEntity;
 import io.oasp.application.mtsj.general.dataaccess.api.ApplicationPersistenceEntity;
 import io.oasp.application.mtsj.usermanagement.common.api.User;
 
+//https://github.com/oasp/oasp4j/wiki/guide-dataaccess-layer#embeddable
 @Entity
 @Table(name = "User")
 public class UserEntity extends ApplicationPersistenceEntity implements User {
