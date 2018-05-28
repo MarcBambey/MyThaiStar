@@ -52,7 +52,7 @@ public class UsermanagementImpl extends AbstractComponentFacade implements Userm
 
     super();
   }
-
+//https://github.com/oasp/oasp4j/wiki/guide-beanmapping#bean-mapper-usage
   @Override
   public UserEto findUser(Long id) {
 

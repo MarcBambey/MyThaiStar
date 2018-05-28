@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 import io.oasp.module.jpa.dataaccess.api.AdvancedRevisionEntity;
-
+//https://github.com/oasp/oasp4j/wiki/guide-configuration#spring-boot-application
 //@SpringBootApplication(exclude = { SecurityAutoConfiguration.class, SecurityFilterAutoConfiguration.class })
 @SpringBootApplication(exclude = { EndpointAutoConfiguration.class })
 @EntityScan(basePackages = { "io.oasp.application.mtsj" }, basePackageClasses = { AdvancedRevisionEntity.class })

@@ -35,6 +35,7 @@ public class DishEntity extends ApplicationPersistenceEntity implements Dish {
 
   private ImageEntity image;
 
+  //https://github.com/oasp/oasp4j/wiki/guide-dataaccess-layer#1n-and-nm-relationships
   private List<IngredientEntity> extras;
 
   private List<CategoryEntity> categories;

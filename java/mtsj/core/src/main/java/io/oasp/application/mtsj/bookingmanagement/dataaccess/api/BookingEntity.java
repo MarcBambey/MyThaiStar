@@ -191,9 +191,11 @@ public class BookingEntity extends ApplicationPersistenceEntity implements Booki
     this.canceled = canceled;
   }
 
+  //https://github.com/oasp/oasp4j/wiki/guide-dataaccess-layer#relationships
   /**
    * @return table
    */
+  //https://github.com/oasp/oasp4j/wiki/guide-dataaccess-layer#1n-and-nm-relationships
   @ManyToOne(fetch = FetchType.EAGER)
   @JoinColumn(name = "idTable")
   public TableEntity getTable() {
