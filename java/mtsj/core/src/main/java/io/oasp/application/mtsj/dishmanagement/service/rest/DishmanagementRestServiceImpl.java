@@ -17,6 +17,7 @@ import io.oasp.module.jpa.common.api.to.PaginatedListTo;
  * The service implementation for REST calls in order to execute the logic of component {@link Dishmanagement}.
  */
 //https://github.com/oasp/oasp4j/wiki/guide-rest#jax-rs
+//DishExample
 @Named("DishmanagementRestService")
 public class DishmanagementRestServiceImpl implements DishmanagementRestService {
 
