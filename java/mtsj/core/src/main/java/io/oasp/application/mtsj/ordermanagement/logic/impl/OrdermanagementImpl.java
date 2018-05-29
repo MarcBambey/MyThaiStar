@@ -115,7 +115,7 @@ public class OrdermanagementImpl extends AbstractComponentFacade implements Orde
     cto.setInvitedGuest(getBeanMapper().map(entity.getInvitedGuest(), InvitedGuestEto.class));
     return cto;
   }
-
+  //https://github.com/oasp/oasp4j/wiki/guide-access-control#configuration-on-java-method-level
   @RolesAllowed(Roles.WAITER)
   public PaginatedListTo<OrderCto> findOrdersByPost(OrderSearchCriteriaTo criteria) {
 

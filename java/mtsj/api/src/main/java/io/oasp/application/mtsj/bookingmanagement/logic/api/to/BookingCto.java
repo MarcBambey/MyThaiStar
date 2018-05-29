@@ -14,7 +14,7 @@ import javax.validation.Valid;
 public class BookingCto extends AbstractCto {
 
   private static final long serialVersionUID = 1L;
-
+//https://github.com/oasp/oasp4j/wiki/guide-validation#stateless-validation
   @Valid
   private BookingEto booking;
 

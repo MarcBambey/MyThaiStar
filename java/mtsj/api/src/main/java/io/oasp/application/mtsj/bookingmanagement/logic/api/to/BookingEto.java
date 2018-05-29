@@ -24,7 +24,7 @@ public class BookingEto extends AbstractEto implements Booking {
   private String bookingToken;
 
   private String comment;
-
+//https://github.com/oasp/oasp4j/wiki/guide-validation#stateless-validation
   @NotNull
   @Future
   private Timestamp bookingDate;

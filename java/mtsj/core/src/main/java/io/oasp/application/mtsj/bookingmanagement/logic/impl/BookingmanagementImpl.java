@@ -405,7 +405,7 @@ public class BookingmanagementImpl extends AbstractComponentFacade implements Bo
       sendCancellationEmailToHost(booking.get(0).getBooking());
     }
   }
-
+//https://github.com/oasp/oasp4j/wiki/guide-validation#stateful-validation
   private void sendConfirmationEmails(BookingEntity booking) {
 
     if (!booking.getInvitedGuests().isEmpty()) {

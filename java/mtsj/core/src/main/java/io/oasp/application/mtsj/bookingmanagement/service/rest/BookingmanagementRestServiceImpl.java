@@ -20,6 +20,7 @@ import io.oasp.module.jpa.common.api.to.PaginatedListTo;
  * The service implementation for REST calls in order to execute the logic of component {@link Bookingmanagement}.
  */
 @Named("BookingmanagementRestService")
+//https://github.com/oasp/oasp4j/wiki/guide-validation#stateless-validation
 @Validated
 public class BookingmanagementRestServiceImpl implements BookingmanagementRestService {
 

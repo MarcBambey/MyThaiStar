@@ -1,3 +1,4 @@
+--https://github.com/oasp/oasp4j/wiki/guide-sql#data
 INSERT INTO UserRole(id, modificationCounter, name, active) VALUES (0, 1, 'Customer', true);
 INSERT INTO UserRole(id, modificationCounter, name, active) VALUES (1, 1, 'Waiter', true);
 INSERT INTO User(id, modificationCounter, username, password, email, idRole) VALUES (0, 1, 'user0', 'password', 'user0@mail.com', 0);
